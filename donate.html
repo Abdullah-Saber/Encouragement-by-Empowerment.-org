@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate | Encouragement Through Empowerment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-gold">Encouragement</span> 
+                <span class="logo-light-blue">Through</span> 
+                <span class="logo-light-blue">Empowerment</span>
+            </a>
+            <button class="mobile-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="programs.html">Programs</a>
+                <a href="involved.html">Get Involved</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+                <a href="donate.html" class="btn btn-primary nav-donate">Donate</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-transition">
+        <section class="inner-hero">
+            <div class="container animate-up">
+                <h1>Make an Impact</h1>
+                <p>Your generosity fuels our mission. Every contribution brings hope to a family in need.</p>
+            </div>
+        </section>
+
+        <section class="container section-padding">
+            <div class="form-container animate-up">
+                <h2>Secure Donation</h2>
+                <form action="#" method="POST">
+                    
+                    <div class="donation-type">
+                        <input type="radio" id="one-time" name="donation_frequency" checked>
+                        <label for="one-time">One-Time</label>
+                        
+                        <input type="radio" id="monthly" name="donation_frequency">
+                        <label for="monthly">Monthly</label>
+                    </div>
+
+                    <div class="donation-amounts">
+                        <div class="amount-btn">$25</div>
+                        <div class="amount-btn">$50</div>
+                        <div class="amount-btn">$100</div>
+                        <div class="amount-btn">$250</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="custom-amount">Custom Amount ($)</label>
+                        <input type="number" id="custom-amount" class="form-control" placeholder="Enter amount">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="donor-name">Full Name</label>
+                        <input type="text" id="donor-name" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="donor-email">Email Address</label>
+                        <input type="email" id="donor-email" class="form-control" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; margin-top: 1rem;">Continue to Payment</button>
+                </form>
+                <p style="text-align: center; margin-top: 1rem; font-size: 0.85rem; color: #666;">Payments are secure and encrypted. We are a registered 501(c)(3) organization.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h4>Encouragement Through Empowerment</h4>
+                <p>A registered 501(c)(3) nonprofit dedicated to community upliftment.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="involved.html">Volunteer</a></li>
+                    <li><a href="events.html">News & Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Connect</h4>
+                <p>Email: hello@encouragementempowerment.org</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Encouragement Through Empowerment. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

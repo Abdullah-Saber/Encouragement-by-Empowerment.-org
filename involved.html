@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved | Encouragement Through Empowerment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-gold">Encouragement</span> 
+                <span class="logo-light-blue">Through</span> 
+                <span class="logo-light-blue">Empowerment</span>
+            </a>
+            <button class="mobile-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="programs.html">Programs</a>
+                <a href="involved.html" class="active">Get Involved</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+                <a href="donate.html" class="btn btn-primary nav-donate">Donate</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-transition">
+        <section class="inner-hero">
+            <div class="container animate-up">
+                <h1>Get Involved</h1>
+                <p>Become a part of the change. Volunteer your time or partner with us.</p>
+            </div>
+        </section>
+
+        <section class="container section-padding">
+            <div class="form-container animate-up">
+                <h2>Volunteer Application</h2>
+                <p style="margin-bottom: 2rem;">Fill out the form below to join our network of community mentors and volunteers.</p>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="vol-name">Full Name</label>
+                        <input type="text" id="vol-name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vol-email">Email Address</label>
+                        <input type="email" id="vol-email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interests">Areas of Interest</label>
+                        <select id="interests" class="form-control">
+                            <option value="mentorship">Youth Mentorship</option>
+                            <option value="events">Event Support</option>
+                            <option value="resources">Resource Distribution</option>
+                            <option value="admin">Administrative Help</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Why do you want to volunteer?</label>
+                        <textarea id="message" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h4>Encouragement Through Empowerment</h4>
+                <p>A registered 501(c)(3) nonprofit dedicated to community upliftment.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="involved.html">Volunteer</a></li>
+                    <li><a href="events.html">News & Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Connect</h4>
+                <p>Email: hello@encouragementempowerment.org</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Encouragement Through Empowerment. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
